@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PMMAUIiOSShellNavIssue.Views.Folder6.PageOnePage"
+             Title="Page One">
+    <ScrollView>
+    <VerticalStackLayout>
+        <Label 
+            Text="Page One Page on MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            Text="How To Reproduce the submitted issue!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Label Text="- First Create a new Visual Studio Project based on the .NET MAUI App template with .NET 8.0.3"  />
+        <Label Text="- Add ten pages to the project" />
+        <Label Text="- Create one tabbar with ten 'ShellContent' items, one for each page, in the AppShell.xaml page" />
+        <Label Text="- In the Landing page, add 10 buttons pointing to their respective page. Botton 1 to page 1, etc." />
+        <Label Text="- Windows Platform: Test accessibility of each page using the tabs, the 'more' menu items, and each buttons on the landing page - all should work as expected landing on the correct page!" />
+        <Label Text="NOTE: Windows 10 and Windows 11 based machines are behaving as expected" />
+        <Label Text="- Android Platform: Test accessibility of each page using the tabs, the 'more' menu items, and each buttons on the landing page - all should work as expected landing on the correct page!" />
+        <Label Text="NOTE: Android Emulator Pixel 5 - API 30... behaves as expected as well as physical devices" />
+        <Label Text="- iOS Platform: First Access all pages using the tabs and More menu items.  They all should work as expected!" />
+        <Label Text="- iOS Platform: Second access the pages using the 'Buttons'. Depending on the device screen size, you may only see four tabs - Landing, PageOnePage, PageTwoPage, and PageThreePage. All other pages are behind the More menu"  />
+        <Label Text="- iOS Platform: For all 'Buttons' that point to pages that are in the More menu, they will bring the More menu instead of the actual page.  Once the button was clicked, then the More menu item no longer behaves the way it is expected to be for that More menu item."  />
+        <Label Text="- iOS Platform: For example: Click on Button pointing to PageFourPage on the landing page. The More menu appear. Now click on the More menu PageFourPage item, the item become selected BUT the page no longer appear."  />
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="PMMAUIiOSShellNavIssue.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:PMMAUIiOSShellNavIssue.Views"
+    xmlns:folder1="clr-namespace:PMMAUIiOSShellNavIssue.Views.Folder1"
+    xmlns:folder2="clr-namespace:PMMAUIiOSShellNavIssue.Views.Folder2"
+    xmlns:folder3="clr-namespace:PMMAUIiOSShellNavIssue.Views.Folder3"
+    xmlns:folder4="clr-namespace:PMMAUIiOSShellNavIssue.Views.Folder4"
+    xmlns:folder5="clr-namespace:PMMAUIiOSShellNavIssue.Views.Folder5"
+    xmlns:folder6="clr-namespace:PMMAUIiOSShellNavIssue.Views.Folder6"
+    Shell.FlyoutBehavior="Disabled"
+    Title="PMMAUIiOSShellNavIssue">
+
+    <TabBar>
+        <ShellContent x:Name="LandingPage" Title="Landing" Route="LandingPage" ContentTemplate="{DataTemplate local:LandingPage}" />
+        <ShellContent x:Name="PageOnePage" Title="PageOnePage" Route="PageOnePage" ContentTemplate="{DataTemplate folder6:PageOnePage}" />
+        <ShellContent x:Name="PageTwoPage" Title="PageTwoPage" Route="PageTwoPage" ContentTemplate="{DataTemplate folder2:PageTwoPage}" />
+        <ShellContent x:Name="PageThreePage" Title="PageThreePage" Route="PageThreePage" ContentTemplate="{DataTemplate folder2:PageThreePage}" />
+        <ShellContent x:Name="PageFourPage" Title="PageFourPage" Route="PageFourPage" ContentTemplate="{DataTemplate folder3:PageFourPage}" />
+        <ShellContent x:Name="PageFivePage" Title="PageFivePage" Route="PageFivePage" ContentTemplate="{DataTemplate folder2:PageFivePage}" />
+        <ShellContent x:Name="PageSixPage" Title="PageSixPage" Route="PageSixPage" ContentTemplate="{DataTemplate folder2:PageSixPage}" />
+        <ShellContent x:Name="PageSevenPage" Title="PageSevenPage" Route="PageSevenPage" ContentTemplate="{DataTemplate folder4:PageSevenPage}" />
+        <ShellContent x:Name="PageEightPage" Title="PageEightPage" Route="PageEightPage" ContentTemplate="{DataTemplate folder5:PageEightPage}" />
+        <ShellContent x:Name="PageNinePage" Title="PageNinePage" Route="PageNinePage" ContentTemplate="{DataTemplate folder1:PageNinePage}" />
+        <ShellContent x:Name="PageTenPage" Title="PageTenPage" Route="PageTenPage" ContentTemplate="{DataTemplate folder1:PageTenPage}" />
+    </TabBar>
+
+</Shell>

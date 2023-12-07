@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PMMAUIiOSShellNavIssue.Views.LandingPage">
+    <!-- <Shell.BackButtonBehavior> -->
+    <!-- <BackButtonBehavior IsEnabled="False" IsVisible="False" /> -->
+    <!-- </Shell.BackButtonBehavior> -->
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <Button x:Name="Row1Btn" Margin="10,0,2,2" Grid.Row="0" Grid.Column="0" />
+        <Label x:Name="Row1Lbl" Text="Description of Button 1 here..." Margin="2,0,10,2" Grid.Row="0" Grid.Column="1"/>
+        <Button x:Name="Row2Btn" Margin="10,0,2,2" Grid.Row="1" Grid.Column="0" />
+        <Label x:Name="Row2Lbl" Text="Description of Button 2 here..." Margin="2,0,10,2" Grid.Row="1" Grid.Column="1"/>
+        <Button x:Name="Row3Btn" Margin="10,0,2,2" Grid.Row="2" Grid.Column="0" />
+        <Label x:Name="Row3Lbl" Text="Description of Button 3 here..." Margin="2,0,10,2" Grid.Row="2" Grid.Column="1"/>
+        <Button x:Name="Row4Btn" Margin="10,0,2,2" Grid.Row="3" Grid.Column="0" />
+        <Label x:Name="Row4Lbl" Text="Description of Button 4 here..." Margin="2,0,10,2" Grid.Row="3" Grid.Column="1"/>
+        <Button x:Name="Row5Btn" Margin="10,0,2,2" Grid.Row="4" Grid.Column="0" />
+        <Label x:Name="Row5Lbl" Text="Description of Button 5 here..." Margin="2,0,10,2" Grid.Row="4" Grid.Column="1"/>
+        <Button x:Name="Row6Btn" Margin="10,0,2,2" Grid.Row="5" Grid.Column="0" />
+        <Label x:Name="Row6Lbl" Text="Description of Button 6 here..." Margin="2,0,10,2" Grid.Row="5" Grid.Column="1"/>
+        <Button x:Name="Row7Btn" Margin="10,0,2,2" Grid.Row="6" Grid.Column="0" />
+        <Label x:Name="Row7Lbl" Text="Description of Button 7 here..." Margin="2,0,10,2" Grid.Row="6" Grid.Column="1"/>
+        <Button x:Name="Row8Btn" Margin="10,0,2,2" Grid.Row="7" Grid.Column="0" />
+        <Label x:Name="Row8Lbl" Text="Description of Button 8 here..." Margin="2,0,10,2" Grid.Row="7" Grid.Column="1"/>
+        <Button x:Name="Row9Btn" Margin="10,0,2,2" Grid.Row="8" Grid.Column="0" />
+        <Label x:Name="Row9Lbl" Text="Description of Button 9 here..." Margin="2,0,10,2" Grid.Row="8" Grid.Column="1"/>
+        <Button x:Name="Row10Btn" Margin="10,0,2,2" Grid.Row="9" Grid.Column="0" />
+        <Label x:Name="Row10Lbl" Text="Description of Button 10 here..." Margin="2,0,10,2" Grid.Row="9" Grid.Column="1"/>
+    </Grid>
+</ContentPage>
